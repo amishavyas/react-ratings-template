@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import { Grid, Typography } from "@material-ui/core";
 import { CustomSlider, StyledButton, StyledValueLabel } from "../StyledElements";
 
-// C-ToM RAs -- TODO: Modify the component to stop the participant from continuing if they have not touched the slider
-// Hint: Change the state of sliderMoved: true as they move through trials
+/* 
+C-ToM RAs -- TODO: 
+(1) Modify the Trials component to stop the participant from continuing if they have not touched the slider 
+(2) Before the next component shows up (DemoSurvey), send stimOrder to the parent (Experiment) 
+*/
 
 class Trials extends Component {
     constructor(props) {
