@@ -115,6 +115,9 @@ function Debrief() {
                 the research team, if you want to talk to someone besides the
                 research team, or if you have questions about your rights as a
                 research participant
+                <br />
+                <br />
+                <br />
             </Typography>
         </Container>
     );

@@ -40,7 +40,7 @@ const educationLabels = [
     "Prefer not to answer",
 ];
 const sexLabels = ["Female", "Male", "Other", "Prefer not to answer"];
-const ethnicityLabels = ["Hispanic or Latino", "Not Hispanic or Latino"];
+const ethnicityLabels = ["Hispanic or Latino", "Not Hispanic or Latino", , "Prefer not to answer"];
 
 function DemoSurvey({ nextPage, demoData, setDemoData }) {
     const submitDemoSurvey = () => {
